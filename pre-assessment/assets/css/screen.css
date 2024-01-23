@@ -23,7 +23,17 @@ body {
 #header {
 }
 #header h1 a {
+	background-image: url(/pre-assessment/assets/img/assessment-2.jpg);
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	position: relative;
+	
 }
+	
 #nav {
 	background-color: #000;
 }
@@ -61,6 +71,18 @@ body {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+.alert {
+	color:white;
+	background-color:#171717;
+}
+h2 {
+	color:white;
+	background-color:#171717;
+}
+
+	
+
+
 #footer {
 	background-color: #000;
 	color: #FFF;
