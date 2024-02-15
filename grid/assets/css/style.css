@@ -7,37 +7,36 @@ html {
 }
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .cf:after {
-    clear: both;
+  clear: both;
 }
 main {
   margin: 20px auto;
-  width: 956px;
+  width: 80vw;
   border: 1px solid black;
 }
 header.primary {
-  width: 916px;
-  margin-left: 20px;
+  width: 95.8159%;
+  margin-left: 2.0833%;
   float: left;
 }
-
 
 #blog {
-  width: 448px;
-  margin: 20px;
+  width: 46.8619%;
+  margin: 2.0833%;
   float: left;
 }
-aside{
-    width: 448px;
-    margin-top: 20px;
-    float: left;
+aside {
+  width: 46.8619%;
+  margin-top: 2.0833%;
+  float: left;
 }
-footer{
-    width: 916px;
-  margin-left: 20px;
+footer {
+  width: 95.8159%;
+  margin-left: 2.0833%;
   float: left;
 }
