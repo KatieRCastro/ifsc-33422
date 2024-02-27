@@ -1,0 +1,58 @@
+html {
+    box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6;  
+}
+
+image {
+    max-width: 100%;
+}
+.visuallyhidden (
+    border: 0;
+    clip: rect
+)
+.container {
+width: 420px;
+margin: 0 auto;
+}
+nav ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 20px 0px 20px;
+}
+
+nav ul a {
+    list-style-type: none;
+}
+ nav a:link, nav a:visited {
+    display: block;
+    padding: 8px 16px;
+    border: 1px solid #000;
+    text-align: center;
+    text-decoration: none;
+    color: #222222;
+    text-transform: none;
+    font-size
+ }
+
+ main {
+    padding: 1px 20px;
+ }
+
+ dl {
+display:grid;
+grid-template: repeat(8,auto) / 8em 1fr;
+font-size: .9rem;
+ }
+ dt {
+    font-weight:800;
+    grid-column: 1;
+    padding:10px 0;
+    border-bottom: 1px solid ;
+ }
+
+ .related-links li {
+    display:flex;
+ }
