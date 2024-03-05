@@ -33,7 +33,7 @@ img {
 .container {
   width: 420px; /* Design Time */
   margin: 0 auto;
-  background: rgba(12, 12, 13, .90);
+  background: #0C0C0D;
 }
 
 /* ------ Helper Classes -------*/
@@ -85,7 +85,7 @@ nav a:link, nav a:visited {
   color: #736345;
   text-transform: uppercase;
   font-size: 0.75em;
-  background: rgba(64, 55, 40, 0.25);
+  background: rgba(64, 55, 40, 0.15);
   transition: #403728 0.5s ease;
   color: #A68F63;
 }
@@ -157,7 +157,7 @@ dd {
   color: #F2F2F2;
   text-transform: uppercase;
   font-size: 0.75em;
-  background: rgba(64, 55, 40, 0.25);
+  background: rgba(64, 55, 40, 0.15);
   transition: #403728 0.5s ease;
   color: #F2F2F2;
 }
@@ -171,12 +171,9 @@ dd {
   background: rgba(0, 0, 0, 0.99);
 }
 
-.related-links li {
 
-}
 
-#skills {
-}
+
 #skills li {
   list-style-type: none;
 }
