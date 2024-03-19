@@ -31,7 +31,7 @@ img {
 
 /* ------ Utility Classes  -------*/
 .container {
-  width: 420px; /* Design Time */
+  width: 680px; /* Design Time */
   margin: 0 auto;
   background: #0C0C0D;
 }
@@ -228,3 +228,68 @@ main{
     "skills"
     ;
 }
+
+@media screen and (min-width:768px){
+  
+  @media screen and (min-width:768px){
+  
+  .container{
+    max-width:680px;
+  }
+
+   main.container{
+    display:grid;
+    grid-template-columns: 36.5% auto;
+    grid-template-areas:
+      "title  title"
+      "about  about"
+      "skills experience"
+      "...... education";
+  }
+
+  .bio{
+  grid-area:bio;
+}
+.details{
+  grid-area:details;
+}
+.related-links{
+  grid-area:related;
+    border-bottom:1px solid #999;
+  padding-bottom:50px
+  } 
+  
+ dl{
+  display: grid;
+  grid-template-rows:auto;
+  grid-template-columns:8em 1fr;
+  /*shorthand*/
+  grid-template:repeat(7,50px) / 7em 1fr;
+}
+  
+  dd{
+    padding-bottom:0;
+  }
+  
+}
+
+@media screen and (min-width:992px) {
+  
+}
+
+
+@media only screen and (max-width: 460px) {
+  .related-links li a svg{display:none;}
+  
+}
+
+@media only screen and (max-width: 395px) {
+.related-links{
+flex-direction:column;
+
+}
+.related-links a{
+display:block;
+  }  
+}
+  
